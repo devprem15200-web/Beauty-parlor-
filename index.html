@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lucky Beauty Parlour</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="kali-maa-logo.png" alt="Kali Maa Logo" />
+        </div>
+        <h1>Lucky Beauty Parlour</h1>
+        <div class="language-switcher">
+            <button onclick="setLanguage('en')">English</button>
+            <button onclick="setLanguage('hi')">हिन्दी</button>
+        </div>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#home" data-en="Home" data-hi="होम">Home</a></li>
+            <li><a href="#about" data-en="About Us" data-hi="हमारे बारे में">About Us</a></li>
+            <li><a href="#services" data-en="Services" data-hi="सेवाएं">Services</a></li>
+            <li><a href="#gallery" data-en="Gallery" data-hi="गैलरी">Gallery</a></li>
+            <li><a href="#contact" data-en="Contact Us" data-hi="संपर्क करें">Contact Us</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="home">
+            <h2 data-en="Welcome to Lucky Beauty Parlour" data-hi="लकी ब्यूटी पार्लर में आपका स्वागत है">Welcome to Lucky Beauty Parlour</h2>
+            <p data-en="Enhancing your beauty with care and professionalism." data-hi="आपकी सुंदरता को देखभाल और पेशेवर तरीके से बढ़ाएँ।">Enhancing your beauty with care and professionalism.</p>
+        </section>
+        <section id="about">
+            <h2 data-en="About Us" data-hi="हमारे बारे में">About Us</h2>
+            <p data-en="We offer a range of beauty and wellness services for women. Our experienced staff ensures the best results for our customers." data-hi="हम महिलाओं के लिए सुंदरता और स्वास्थ्य सेवाओं की पूरी श्रृंखला प्रदान करते हैं। हमारी अनुभवी टीम ग्राहकों को सर्वोत्तम सेवा देती है।">We offer a range of beauty and wellness services for women. Our experienced staff ensures the best results for our customers.</p>
+        </section>
+        <section id="services">
+            <h2 data-en="Our Services" data-hi="हमारी सेवाएं">Our Services</h2>
+            <ul>
+                <li data-en="Facials & Skin Care" data-hi="फेशियल और त्वचा देखभाल">Facials & Skin Care</li>
+                <li data-en="Bridal Makeup" data-hi="ब्राइडल मेकअप">Bridal Makeup</li>
+                <li data-en="Hair Styling & Coloring" data-hi="हेयर स्टाइलिंग और कलरिंग">Hair Styling & Coloring</li>
+                <li data-en="Manicure & Pedicure" data-hi="मेनिक्योर और पेडिक्योर">Manicure & Pedicure</li>
+                <li data-en="Waxing & Threading" data-hi="वैक्सिंग और थ्रेडिंग">Waxing & Threading</li>
+            </ul>
+        </section>
+        <section id="gallery">
+            <h2 data-en="Gallery" data-hi="गैलरी">Gallery</h2>
+            <div class="gallery-images">
+                <img src="gallery1.jpg" alt="Service Image 1"/>
+                <img src="gallery2.jpg" alt="Service Image 2"/>
+            </div>
+        </section>
+        <section id="contact">
+            <h2 data-en="Contact Us" data-hi="संपर्क करें">Contact Us</h2>
+            <p><strong>Email:</strong> namedevshorts@gmail.com</p>
+            <p><strong>Phone:</strong> 7488878524</p>
+            <p><strong>Address:</strong> Near Sabour College, BGP</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Lucky Beauty Parlour. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
